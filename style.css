@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --proj-white: #FFFFFF;
+    --proj-desc: #C0C0C0;
+    --proj-blue: #1F78E4;
+    --proj-backg: #00030C;
+    --proj-bhover: #003b83;
+    --proj-font: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--proj-backg);
+    color: var(--proj-white);
+    font-family: var(--proj-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main {
+    background-image: url("assets/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-box {
+    margin: 0 6em;
+}
+
+.container-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container-img {
+    margin: 1em 0 2em 0;
+}
+
+.container-button {
+    background-color: var(--proj-blue);
+    border-radius: 22px;
+    padding: 1em;
+    color: var(--proj-white);
+    display: block;
+    margin-bottom: 1em;
+}
+
+.container-button:hover {
+    background-color: var(--proj-bhover);
+}
+
+.container-button2 {
+    background-color: transparent;
+    border: 2px solid var(--proj-white);
+    border-radius: 22px;
+}
+
+.container-button2:hover {
+    background-color: var(--proj-white);
+    color: var(--proj-backg);
+}
+
+.container-warn {
+    color: var(--proj-desc);
+    font-size: 12px;
+}
+
+
+
+.secondary-img {
+    width: 80%;
+}
+
+.secondary {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secondary-desc {
+    padding: 2em;
+}
+
+.secondary-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--proj-white);
+    margin-bottom: 0.1em;
+}
+
+.secondary-text {
+    color: var(--proj-desc);
+}
+
+.secondary-button {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid var(--proj-blue);
+    border-radius: 22px;
+}
+
+.secondary-button:hover {
+    background-color: var(--proj-blue);
+}
+
+.secondary-text2 {
+    margin-bottom: 1em;
+}
+
+.devices {
+    text-align: center;
+}
+
+.devices-title {
+    font-size: 48px;
+    color: var(--proj-white);
+}
+
+.devices-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.devices-name {
+    font-size: 32px;
+    color: var(--proj-white);
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-logo {
+    margin-bottom: 2.5em;
+}
+
+.footer-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.footer-list-link a{
+    color: var(--proj-white);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0.5em;
+}
+
+.footer-info {
+    color: var(--proj-desc);
+    font-size: 14px;
+    margin: 1.5em 0;
+}
+
+.footer-list-link a:hover {
+    color: var(--proj-blue);
+}

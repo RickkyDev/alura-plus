@@ -172,6 +172,10 @@ body {
     color: var(--proj-blue);
 }
 
+.highlight {
+    color: var(--proj-lblue);
+}
+
 @media screen and (max-width: 768px) {
     .container {
         display: block;
